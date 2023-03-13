@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    무비 데이터베이스것을 그대로 사용-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="무비 차트"
+            android:textSize="35dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="번호     |    영화명      |      평점        |       극장명      |       위치"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:layout_margin="10dp"
+        android:text="등록" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_above="@+id/btnAdd"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="11dp" />
+
+
+</RelativeLayout>

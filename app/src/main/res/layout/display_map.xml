@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+<!--        프래그먼트 핸들링을 위해선 별도의 레이아웃으로 존재해야한다. 이것때문에 2시간 날아감-->
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:id="@+id/map"
+            tools:context=".MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="돌아가기"
+            android:layout_margin="30dp"
+            android:onClick="back">
+
+        </Button>
+
+
+
+</LinearLayout>
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".MainActivity"-->
+<!--    >-->
+
+<!--        <fragment-->
+<!--            xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            xmlns:map="http://schemas.android.com/apk/res-auto"-->
+<!--            android:name="com.google.android.gms.maps.MapFragment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="600dp"-->
+<!--            android:id="@+id/map"-->
+<!--            >-->
+<!--        </fragment>-->
+<!--        <Button-->
+<!--            android:id="@+id/button1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="돌아가기"-->
+<!--            android:background="@color/black"-->
+<!--            android:layout_margin="30dp"-->
+<!--            android:onClick="back">-->
+<!--        </Button>-->
+
+<!--    -->
+<!--</LinearLayout>-->
+
