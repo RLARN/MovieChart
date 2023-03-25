@@ -1,4 +1,4 @@
-# AWS_TEST
+# MovieChart
 구글지도 API를 이용한 영화 평점, 영화관 위치 정보 저장 어플(Android-Java)
 
 ---
