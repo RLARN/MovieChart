@@ -7,7 +7,7 @@
 *   Index(main)
     * 무비 리스트 확인
     * 무비 리스트 등록
-*  information
+*  Information
     * 무비 정보 확인
     * 무비 정보 수정
 * Serch Map
